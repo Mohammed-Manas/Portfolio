@@ -41,7 +41,7 @@
   bottom: 20px;
   width: 35px;
   height: 35px;
-  background: var(--second-color);
+  background: black;
   color: #fff;
   font-size: var(--small-font-size);
   border-radius: 35px;
@@ -125,6 +125,7 @@ header.sticky .nav-bar {
   color: var(--first-color);
   font-size: 1.3em;
   font-weight: 600;
+  font-family: 'Crimson Pro', serif;
 }
 
 .nav-items a {
@@ -134,7 +135,9 @@ header.sticky .nav-bar {
 }
 
 .nav-items a.active {
-  color: var(--second-color);
+   background: linear-gradient(to right, #803ff8, #fd605a);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .nav-items a:not(:last-child) {
@@ -142,7 +145,9 @@ header.sticky .nav-bar {
 }
 
 .nav-items a:hover {
-  color: var(--second-color);
+   background: linear-gradient(to right, #803ff8, #fd605a);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .nav-menu-btn {
@@ -183,6 +188,7 @@ header.sticky .nav-bar {
 }
 
 .home-container .info h2 {
+  font-family: 'Clash Display', sans-serif;
   background: linear-gradient(to right, #803ff8, #fd605a);
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -319,6 +325,7 @@ header.sticky .nav-bar {
   max-width: 100%;
   min-width: 500px;
   border-radius: 10px;
+  box-shadow: 1px 1px 10px grey;
 }
 
 .about-info .description {
@@ -482,7 +489,7 @@ header.sticky .nav-bar {
 }
 
 .bar .CSS:before {
-  width: 90%;
+  width: 85%;
 }
 
 .bar .bootstrap:before {
@@ -835,7 +842,7 @@ header.sticky .nav-bar {
 .contact-form textarea {
   border: none;
   color: var(--first-color);
-  background: var(--transparent-color-02);
+  background:rgb(225, 231, 230);
   font-size: var(--normal-font-size);
   margin-bottom: 20px;
   padding: 15px 40px 40px 20px;
@@ -1004,7 +1011,6 @@ footer a {
 
   .nav-menu-btn {
     background: url(images/menu.png) no-repeat;
-    filter: var(--color-filter);
     background-size: 30px;
     background-position: center;
     width: 40px;
@@ -1043,6 +1049,7 @@ footer a {
 
   .about-info .professional-list .list-item {
     justify-content: start;
+    margin-left: 20px;
   }
 
   /* get in touch*/
