@@ -1146,7 +1146,10 @@ footer a {
   }
 
   .home-container .home-img {
-    position: absolute;
+    position: relative;
+    bottom: 750px;
+    left: 60px;
+    width: 550px;
   }
 
   .home-container .home-img img {
