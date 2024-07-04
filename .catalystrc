@@ -1,0 +1,30 @@
+{
+  "defaults": {
+    "project": 1,
+    "env": 1
+  },
+  "actives": {
+    "project": 1,
+    "env": 1
+  },
+  "projects": [
+    {
+      "idx": 1,
+      "id": "8225000000007001",
+      "name": "Manas-Portfolio",
+      "domain": {
+        "id": "50020385596",
+        "name": "manas-portfolio-60030557178.development"
+      },
+      "timezone": "Asia/Kolkata",
+      "env": [
+        {
+          "idx": 1,
+          "id": "60030557178",
+          "name": "Development",
+          "type": 3
+        }
+      ]
+    }
+  ]
+}
